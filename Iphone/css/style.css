@@ -1,0 +1,551 @@
+html, body {
+	overflow-x: hidden;
+}
+
+body {
+	width: 100%;
+	background: #fff;
+}
+
+.header-wrap {
+	background: url("../img/bg.png");
+	width: 100%;
+	height: 600px;
+}
+
+header {
+	width: 1400px;
+	height: 600px;
+	margin: 0 auto;
+}
+
+.logo {
+	margin-left: 116px;
+	padding-top: 26px;
+}
+
+.ltext {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	font-family: "Lato-Regular";
+	font-size: 18px;
+	margin-left: 166px;
+	margin-top: -50px;
+	color: #394346;
+}
+
+.dost {
+	white-space: pre;
+	font-family: "Lato-Regular";
+	font-size: 18px;
+	color: #394346;
+	margin-left: 675px;
+	margin-top: -30px;
+}
+
+.help {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: -132px;
+}
+
+.help a {
+	text-decoration: none;
+	border: 2px solid #394346;
+	border-radius: 10px;
+	padding: 10px;
+	color: #394346;
+	margin-right: 100px;
+	margin-top: 100px;
+}
+
+.main-header-wrap {
+  background: url("../images/bg.png");
+}
+
+.btn {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	line-height: 24px;
+	margin-top: 155px;
+
+}
+
+.gtext {
+	font-family: "Myriad Pro";
+	font-size: 48px;
+	text-align: center;
+	color: #394346;
+}
+
+.gtext2 {
+	font-family: "Lato-Regular";
+	font-size: 30px;
+	text-align: center;
+	color: #394346;
+}
+
+.gbtn {
+	flex-direction: row;
+	align-content: space-around;
+	margin-top: 55px;
+}
+
+.checkout a {
+	text-decoration: none;
+	border: 2px solid #394346;
+	border-radius: 10px;
+	padding: 17px 32px;
+	color: #394346;
+}
+
+.learnmore a {
+	text-decoration: none;
+	border: 2px solid #394346;
+	border-radius: 10px;
+	padding: 14px 19px;
+	color: #fff;
+	background-color: #394346;
+	margin-left: 10px;
+}
+
+.iphone {
+	margin-top: 30px;
+}
+
+
+/*                     2-й блок                 */
+
+
+.ytp {
+	padding: 50px 0 50px 0;
+ 	width: 1400px;
+ 	margin: 0 auto;
+ 	height: 400px;
+}
+
+.block2text {
+	font-family: "Lato-Regular";
+	font-size: 36px;
+	color: #394346;
+	text-align: center;
+
+}
+
+.block2text2 {
+	font-family: "Lato-Regular";
+	font-size: 16px;
+	color: #8e999c;
+	margin-top: 0px;
+	text-align: center;
+}
+
+.kartinki {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 55px;
+}
+
+.block2-1 {
+	margin-right: 120px;
+}
+
+.block2-2 {
+	text-align: center;
+	margin-top: 20px;
+	margin-left: -20px;
+	color: #8e999c;
+	font-size: 24px;
+	font-family: "Lato-Semibold";
+}
+
+.block2-3 {
+	width: 175px;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: -20px;
+	color: #8e999c;
+	font-size: 16px;
+	font-family: "Lato-Regular";
+}
+
+.service {
+	margin-right: 90px;
+}
+.servicetext {
+	margin-left: -28px;
+	text-align: center;
+	margin-top: 20px;
+	color: #8e999c;
+	font-size: 24px;
+	font-family: "Lato-Semibold";
+}
+
+.bonus {
+	float: right;
+	margin-left: 0px;
+}
+
+.bonustext {
+	text-align: center;
+	margin-top: 20px;
+	margin-left: -20px;
+	color: #8e999c;
+	font-size: 24px;
+	font-family: "Lato-Semibold";
+}
+
+
+/*               3-й блок              */
+
+
+.review-wrap {
+  background: url("../img/bg.png");
+}
+
+.review-wrap .review {
+
+	height: 700px;
+    width: 1400px;
+    margin: 0 auto;
+    padding: 50px 0 50px 0;
+}
+
+.review-phone {
+	position: absolute;
+	margin-left: 150px;
+	background-image: url(../img/iphone-big.png);
+	z-index: 1;
+	width: 350px;
+	height: 650px;
+}
+
+.btno a {
+	float: right;
+	margin-right: 200px;
+	text-decoration: none;
+	border: 2px solid #394346;
+	border-radius: 10px;
+	padding: 15px 20px;
+	color: #394346;
+	font-family: "Lato-Regular";
+	font-size: 18px;
+}
+
+.btnc a {
+	float: right;
+	margin-right: 15px;
+	text-decoration: none;
+	border: 2px solid #394346;
+	border-radius: 10px;
+	padding: 15px 20px;
+	color: #fff;
+	background-color: #394346;
+	font-family: "Lato-Regular";
+	font-size: 18px;
+}
+
+.description {
+	margin-left: 570px;
+	font-family: "Lato-Regular";
+	font-size: 36px;
+	color: #394346;
+}
+
+.weight {
+	margin-top: 20px;
+	color: #394346;
+	font-size: 24px;
+	font-family: "Lato-Semibold";
+}
+
+.h2	{
+	width: 500px;
+	margin-top: 10px;
+	font-family: "Lato-Regular";
+	font-size: 16px;
+	color: #394346;
+}
+
+.h1 {
+	margin-top: 10px;
+	color: #394346;
+	font-size: 24px;
+	font-family: "Lato-Semibold";
+}
+
+/*           4-й блок              */
+
+.block4-wrap {
+	padding: 50px 0 50px 0;
+ 	width: 1400px;
+ 	margin: 0 auto;
+ 	height: 400px;
+}
+
+.block4text2 {
+	font-family: "Lato-Regular";
+	font-size: 16px;
+	color: #8e999c;
+	margin-top: 15px;
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+.block4 {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+.block4-arrow {
+	margin-top: 60px;
+}
+
+.block4s {
+	width: 175px;
+	text-align: center;
+	margin-top: 10px;
+	margin-left: -20px;
+	color: #8e999c;
+	font-size: 16px;
+	font-family: "Lato-Regular";
+}
+
+/*                 5-й блок               */
+
+.appearance-wrap {
+	background: url("../img/bg.png");
+}
+
+.appearance {
+	height: 600px;
+    width: 1400px;
+    margin: 0 auto;
+    padding: 50px 0 50px 0;
+}
+
+.iphone-side {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.iphone-side img{
+	border: 2px solid #394346;
+	box-sizing: padding-box;
+}
+
+.btn-app1 a{
+	float: left;
+	text-decoration: none;
+	border: 2px solid #394346;
+	border-radius: 10px;
+	padding: 15px 20px;
+	color: #394346;
+	font-family: "Lato-Regular";
+	font-size: 18px;
+	margin-top: -265px;
+	margin-left: 105px;
+}
+
+.btn-app2 a{
+	float: right;
+	text-decoration: none;
+	border: 2px solid #394346;
+	border-radius: 10px;
+	padding: 15px 20px;
+	color: #394346;
+	font-family: "Lato-Regular";
+	font-size: 18px;
+	margin-top: -265px;
+	margin-right: 105px;
+}
+
+
+
+
+/*                5-й блок              */
+
+
+
+
+.order-wrap {
+	padding: 50px 0 50px 0;
+ 	width: 1400px;
+ 	margin: 0 auto;
+ 	height: 600px;
+}
+.iphone-back img{
+	margin-top: 50px;
+	margin-left: 150px;
+	height: 400px;
+}
+
+.price {
+	margin-left: 230px;
+	margin-top: 100px;
+}
+
+.select {
+	margin-left: 550px;
+	margin-top: -410px;
+}
+
+.btn-order {
+	margin-top: 30px;
+	margin-right: 365px;
+}
+
+#color {
+	margin-top: 120px;
+}
+
+#color1 {
+	background-color: #394346;
+}
+
+.color img {
+	border: 2px solid #394346;
+	border-radius: 5px;
+	padding: 15px 20px;
+	margin-right: 35px;
+	margin-top: 30px;
+}
+
+.comp {
+	margin-left: 550px;
+	margin-top: 30px;
+}
+
+.size {
+	margin-top: 40px;
+}
+
+.size span{
+	border: 2px solid #394346;
+	border-radius: 5px;
+	padding: 12px 10px;
+	margin-right: 35px;
+	margin-top: 50px;
+	font-size: 18px;
+}
+
+.size2 {
+	background-color: #394346;
+	color: white;
+}
+
+.contin {
+	margin-right: 625px;
+	margin-top: -40px;
+}
+
+.contact {
+	float: right;
+	margin-right: 240px;
+	margin-top: -400px;
+}
+
+#name {
+	text-indent: 7px;
+	border: 1px solid #7f8587;
+	border-radius: 2px;
+	margin-top: 30px;
+	height: 30px;
+	width: 250px;
+}
+
+#email {
+	text-indent: 7px;
+	border: 1px solid #7f8587;
+	border-radius: 2px;
+	margin-top: 20px;
+	height: 30px;
+	width: 250px;
+}
+
+.face {
+	margin-top: 20px;
+	width: 250px;
+	font-size: 18px;
+	color: #394346;
+	font-family: "Lato-Regular";
+}
+
+
+/*Карта*/
+
+
+.map-contact {
+	position: absolute;
+	z-index: 5;
+	width: 615px;
+	height: 600px;
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
+.map-contact__center {
+	display: flex;
+	flex-direction: column;
+	margin-left: 25%;
+	margin-top: 80px;
+}
+
+.contact-text {
+	z-index: 6;
+}
+
+#Message {
+	text-indent: 7px;
+	border: 1px solid #7f8587;
+	border-radius: 2px;
+	resize: none;
+	margin-top: 20px;
+	height: 130px;
+	width: 246px;
+}
+
+.map-contact__btn {
+	margin-top: 50px;
+	margin-left: 13%;
+}
+
+.map-contact__btn a  {
+	text-decoration: none;
+	border: 2px solid #394346;
+	border-radius: 10px;
+	padding: 15px 20px;
+	color: #fff;
+	background-color: #394346;
+	font-family: "Lato-Regular";
+	font-size: 18px;
+}
+
+/*               footer             */
+
+.footer-wrap {
+	background: url("../img/bg.png");
+}
+
+footer {
+    width: 1400px;
+    margin: 0 auto;
+    padding: 50px 0 20px 0;
+}
+
+
+footer img {
+	margin-top: -50px;
+	margin-left: 116px;
+}
+
+
+.info-foot {
+	margin-top: -35px;
+}

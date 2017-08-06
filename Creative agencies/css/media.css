@@ -1,0 +1,516 @@
+@media (min-width: 1200px) {
+	.nav__soc {
+		margin-right: 0;
+		margin-left: 0;
+	}
+}
+
+@media (min-width: 940px) and (max-width: 1199px) {
+
+	.nav__logo {
+		margin-left: 1%;
+	}
+
+	.nav__soc {
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	.nav__page li {
+		margin-right: 33px;
+	}
+
+	.container_dark_text {
+		height: 400px;
+	}
+
+	.container_dark_img {
+		height: 400px;
+	}
+
+	.container_light_img {
+		height: 400px;
+	}
+	
+	.container_light_text {
+		height: 400px;
+	}
+}
+
+@media (min-width: 795px) and (max-width: 939px) {
+	.nav__wrap {
+		justify-content: center;
+		padding-top: 10px;
+	}
+
+	.nav__logo {
+		margin-left: 0;
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+
+	.nav__page {
+		margin-right: 0;
+		margin-left: 10px;
+		padding-bottom: 15px;
+	}
+
+	.nav__soc {
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	.header__main_text {
+		font-size: 120px;
+	}
+
+	.container_dark_text {
+		height: 320px;
+	}
+
+	.container_dark_img {
+		height: 320px;
+	}
+
+	.container_light_img {
+		height: 320px;
+	}
+	
+	.container_light_text {
+		height: 320px;
+	}
+
+	.container_dark_data {
+		margin-top: 25px;
+	}
+
+	.h1 {
+		line-height: 24px;
+	}
+
+	.h2 {
+		margin-top: 15px;
+	}
+
+	.advert__img {
+		display: none;
+	}
+
+	.advert__text {
+		margin-left: 25%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 794px) {
+	.nav__wrap {
+		justify-content: center;
+		padding-top: 10px;
+	}
+
+	.nav__logo {
+		margin-left: -30px;
+		margin-right: 0;
+		margin-bottom: 15px;
+	}
+
+	.nav__page {
+		margin-right: 0;
+		margin-left: 10px;
+
+	}
+
+	.nav__soc {
+		margin-right: 0;
+		margin-left: 0;
+	}
+
+	.header__main_text {
+		font-size: 120px;
+	}
+
+	.container_dark_text {
+		height: 320px;
+	}
+
+	.container_dark_img {
+		height: 320px;
+	}
+
+	.container_light_img {
+		height: 320px;
+	}
+	
+	.container_light_text {
+		height: 320px;
+	}
+
+	.container_dark_data {
+		margin-top: 25px;
+	}
+
+	.h1 {
+		line-height: 24px;
+	}
+
+	.h2 {
+		margin-top: 15px;
+	}
+
+	.advert__img {
+		display: none;
+	}
+
+	.advert__text {
+		margin-left: 25%;
+	}
+
+	.contact_textarea{
+		width: 30%;
+	}
+	
+	.textarea__messeage{
+		width: 50%;
+	}
+}
+
+@media (min-width: 651px) and (max-width: 767px) {
+	.nav__wrap {
+		justify-content: flex-end;
+		padding-top: 10px;
+	}
+
+	.nav__logo {
+		margin-right: 45%;
+		margin-bottom: 15px;
+	}
+
+	.nav__page {
+		margin-right: 0;
+		margin-left: 10px;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+	}
+
+	.nav__page li {
+		padding-bottom: 15px;
+	}
+
+	.nav__soc {
+		margin-right: 0;
+		margin-left: 10px;
+	}
+
+	.header__main_text {
+		font-size: 100px;
+	}
+
+	.header__main_text_s {
+		font-size: 24px;
+	}
+
+	.container_dark_text {
+		height: 320px;
+	}
+
+	.container_dark_img {
+		height: 320px;
+	}
+
+	.container_light_img {
+		height: 320px;
+	}
+	
+	.container_light_text {
+		height: 320px;
+	}
+
+	.container_dark_data {
+		margin-top: 25px;
+	}
+
+	.h1 {
+		line-height: 24px;
+		font-size: 23px;
+	}
+
+	.h2 {
+		margin-top: 15px;
+		font-size: 13px;
+	}
+
+	.description_one {
+		margin-top: 70px;
+	}
+
+	.description_two {
+		display: none;
+	}
+
+	.contact_textarea{
+		width: 30%;
+	}
+	
+	.textarea__messeage{
+		width: 50%;
+	}
+
+	.advert__img {
+		display: none;
+	}
+
+	.advert__text {
+		margin-left: 25%;
+	}
+}
+
+@media (min-width: 480px) and (max-width: 650px) {
+	.nav__wrap {
+		justify-content: flex-end;
+		padding-top: 10px;
+	}
+
+	.nav__logo {
+		margin-right: 45%;
+		margin-bottom: 15px;
+	}
+
+	.nav__page {
+		margin-right: 0;
+		margin-left: 10px;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+	}
+
+	.nav__page li {
+		padding-bottom: 15px;
+	}
+
+	.nav__soc {
+		margin-right: 0;
+		margin-left: 10px;
+	}
+
+	.header__main_text {
+		font-size: 80px;
+	}
+
+	.header__main_text_s {
+		font-size: 20px;
+	}
+
+	.news__container_dark {
+		display: none;
+	}
+
+	.news__container_light {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.container_light_img {
+		height: 320px;
+		width: 100%
+	}
+	
+	.container_light_text {
+		height: 320px;
+		width: 100%
+	}
+
+	.h1 {
+		line-height: 24px;
+		font-size: 23px;
+	}
+
+	.h2 {
+		margin-top: 15px;
+		font-size: 13px;
+	}
+
+	.description_one {
+		margin-top: 70px;
+	}
+
+	.description_two {
+		display: none;
+	}
+
+	.advert__img {
+		display: none;
+	}
+
+	.advert__text {
+		margin-left: 5%;
+	}
+
+	.contact_text_s {
+		font-size: 20px;
+	}
+
+	.contact_textarea{
+		width: 65%;
+	}
+	
+	.textarea__messeage{
+		width: 74%;
+	}
+
+	.footer__text_copy {
+		font-size: 10px;
+		margin-left: 9%;
+	}
+
+	.footer__text_design {
+		font-size: 10px;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 479px) {
+	body {
+		overflow-x: hidden;
+	}
+	.nav__wrap {
+		justify-content: flex-end;
+		padding-top: 10px;
+	}
+
+	.nav__logo {
+		margin-right: 45%;
+		margin-bottom: 15px;
+	}
+
+	.nav__page {
+		margin-right: 0;
+		margin-left: 10px;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+	}
+
+	.nav__page li {
+		padding-bottom: 15px;
+	}
+
+	.nav__soc {
+		margin-right: 0;
+		margin-left: 10px;
+	}
+
+	.header__main_text {
+		font-size: 50px;
+	}
+
+	.header__main_text_s {
+		font-size: 15px;
+	}
+
+	.large_text{
+		font-size: 190px;
+	}
+
+	.small_text {
+		font-size: 30px;
+	}
+
+	.blog_text_m {
+		font-size: 20px;
+	}
+
+	.news__container_dark {
+		display: none;
+	}
+
+	.news__container_light {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.container_light_img {
+		height: 320px;
+		width: 100%
+	}
+	
+	.container_light_text {
+		height: 320px;
+		width: 100%
+	}
+
+	.h1 {
+		line-height: 24px;
+		font-size: 23px;
+	}
+
+	.h2 {
+		margin-top: 15px;
+		font-size: 13px;
+	}
+
+	.description__main {
+		text-align: center;
+		padding-top: 50px;
+	}
+
+	.description_two {
+		display: none;
+	}
+
+	.description__main_container {
+		margin-top: 5%;
+		justify-content: center;
+	}
+
+	.description__text {
+		margin-top: 50px;
+		margin-left: 8%;
+		text-align: center;
+		color: #fff;
+		width: 85%;
+	}
+
+	.advert__img {
+		display: none;
+	}
+
+	.advert__text {
+		margin-left: 5%;
+	}
+
+	.advert__text_s {
+		width: 280px;
+	}
+
+	.one {
+	width: 180px;
+	}
+
+	.two {
+	width: 210px;
+	}
+
+	.three {
+	width: 240px;
+	}
+
+	.contact_text_s {
+		font-size: 20px;
+	}
+
+	.contact_textarea{
+		width: 65%;
+	}
+	
+	.textarea__messeage{
+		width: 74%;
+	}
+
+	.footer__text_copy {
+		margin-top: 40px;
+		font-size: 10px;
+		margin-left: 12%;
+	}
+
+	.footer__text_design {
+		margin-top: 65px;
+		font-size: 10px;
+		margin-right: 20%;
+	}
+}
