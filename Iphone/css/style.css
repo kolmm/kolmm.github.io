@@ -5,6 +5,7 @@ html, body {
 body {
 	width: 100%;
 	background: #fff;
+	box-sizing: border-box;
 }
 
 .header-wrap {
@@ -272,7 +273,6 @@ header {
 }
 
 .h1 {
-	margin-top: 10px;
 	color: #394346;
 	font-size: 24px;
 	font-family: "Lato-Semibold";
@@ -381,75 +381,90 @@ header {
  	margin: 0 auto;
  	height: 600px;
 }
-.iphone-back img{
+
+.order-main {
+	display: flex;
+	justify-content: space-between;
 	margin-top: 50px;
+}
+
+.iphone-back img{
 	margin-left: 150px;
 	height: 400px;
 }
 
-.price {
-	margin-left: 230px;
-	margin-top: 100px;
+.order-select {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
-.select {
-	margin-left: 550px;
-	margin-top: -410px;
+.order-select-btn {
+	display: flex;
+	justify-content: space-between;
 }
 
-.btn-order {
-	margin-top: 30px;
-	margin-right: 365px;
+.order-select-btn a {
+	text-decoration: none;
+	color: #394346;
+	font-family: "Lato-Regular";
+	font-size: 18px;
 }
 
-#color {
-	margin-top: 120px;
+.btn-iphone-s,
+.btn-iphone-l {
+	border: 2px solid #394346;
+	border-radius: 10px;
+	padding: 15px 20px;
 }
 
-#color1 {
+.btn-iphone-bg {
 	background-color: #394346;
+	color: #ffffff;
+}
+
+.color {
+	display: flex;
+	justify-content: space-between;
 }
 
 .color img {
 	border: 2px solid #394346;
 	border-radius: 5px;
 	padding: 15px 20px;
-	margin-right: 35px;
-	margin-top: 30px;
 }
 
-.comp {
-	margin-left: 550px;
-	margin-top: 30px;
+.color-img-bg {
+	background-color: #394346;
+	color: #ffffff;
 }
 
 .size {
-	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
 }
 
-.size span{
-	border: 2px solid #394346;
-	border-radius: 5px;
-	padding: 12px 10px;
-	margin-right: 35px;
-	margin-top: 50px;
-	font-size: 18px;
+.size a {
+	text-decoration: none;
+	color          : #394346;
+	font-size      : 18px;
 }
 
-.size2 {
+.size-btn-s,
+.size-btn-l,
+.size-btn-xl {
+	border         : 2px solid #394346;
+	border-radius  : 5px;
+	padding        : 12px 10px;
+}
+
+.size-btn-bg {
 	background-color: #394346;
-	color: white;
+	color: #ffffff;
 }
 
-.contin {
-	margin-right: 625px;
-	margin-top: -40px;
-}
-
-.contact {
-	float: right;
-	margin-right: 240px;
-	margin-top: -400px;
+.order-contact {
+	margin-right: 184px;
 }
 
 #name {
@@ -478,6 +493,22 @@ header {
 	font-family: "Lato-Regular";
 }
 
+.order-btn {
+	display: flex;
+	margin: 0 auto;
+	width: 100px;
+	border: 2px solid #394346;
+	border-radius: 10px;
+	padding: 15px 20px;
+	background-color: #394346;
+}
+
+.order-btn a {
+	text-decoration: none;
+	color: #fff;
+	font-family: "Lato-Regular";
+	font-size: 18px;
+}
 
 /*Карта*/
 

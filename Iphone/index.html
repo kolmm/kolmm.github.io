@@ -121,35 +121,49 @@
 			<div class="btn-app2"><a href="#">Далее</a></div>
 		</div>
 	</div>
+
 	<div class="order-wrap">
 		<div class="order">
 			<div class="block2text">Оформление заказа</div>
-			<div class="iphone-back"><img src="img/iphone-back.png" alt=""></div>
+			<div class="order-main">
+				<div class="iphone-back"><img src="img/iphone-back.png" alt=""></div>
 
-			<div class="h1 select">Выберете модель:
-				<div class="btno btn-order"><a href="#">IPhone 6 Plus</a></div>
-				<div class="btnc btn-order"><a href="#">IPhone 6</a></div>
-			</div>
-			<div class="h1 select" id="color">Выберете цвет:
-				<div class="color">
-					<img id="color1" src="img/gray.png" alt="">
-					<img src="img/silver.png" alt="">
-					<img src="img/gold.png" alt="">
+				<div class="order-select">
+						<span class="h1">Выберете модель:</span>
+
+						<div class="order-select-btn">
+							<a href="#" onclick="handler(event)"><div class="btn-iphone-l">IPhone 6 Plus</div></a>
+							<a href="#" onclick="handler(event)"><div class="btn-iphone-s">IPhone 6</div></a>
+						</div>
+
+						<span class="h1">Выберете цвет:</span>
+						<div class="color">
+							<a href="#" onclick="handler(event)"><img class="select-color-gray" src="img/gray.png" alt=""></a>
+							<a href="#" onclick="handler(event)"><img class="select-color-silver" src="img/silver.png" alt=""></a>
+							<a href="#" onclick="handler(event)"><img class="select-color-gold" src="img/gold.png" alt=""></a>
+						</div>
+
+						<span class="h1">Выберете комплектацию:</span>
+						<div class="size">
+							<a href="#" onclick="handler(event)"><div class="size-btn-s">16 ГБ</div></a>
+							<a href="#" onclick="handler(event)"><div class="size-btn-l">64 ГБ</div></a>
+							<a href="#" onclick="handler(event)"><div class="size-btn-xl">128 ГБ</div></a>
+						</div>
+				</div>
+
+				<div class="order-contact">
+					<div class="contact">
+						<div class="h1">Контактное лицо:</div>
+						<input type="text" name="name" id="name" placeholder="Ваше имя"><br>
+						<input type="text" name="email" id="email" placeholder="E-mail или телефон">
+						<div class="face">Помимо iPhone 6, в комлект поставки так же входят наушники EarPods, кабель Lightning/USB и адаптер питания USB.</div>
+					</div>
 				</div>
 			</div>
-			<div class="h1 comp">Выберете комплектацию:
-				<div class="size">
-					<span>16 ГБ</span><span class="size2">64 ГБ</span><span>128 ГБ</span>
-				</div>
-			</div>
-			<div class="contact">
-				<div class="h1">Контактное лицо:</div>
-				<input type="text" name="name" id="name" placeholder="Ваше имя"><br>
-				<input type="text" name="email" id="email" placeholder="E-mail или телефон">
-				<div class="face">Помимо iPhone 6, в комлект поставки так же входят наушники EarPods, кабель Lightning/USB и адаптер питания USB.</div>
-			</div>
-			<div class="h1 price">Цена: <strong>36 990 руб.</strong></div>
-			<div class="btnc contin"><a href="#">Продолжить</a></div>
+
+			<div class="h1">Цена: <strong>36 990 руб.</strong></div>
+			<div class="order-btn"><a href="#">Продолжить</a></div>
+
 		</div>
 	</div>
 
@@ -183,6 +197,12 @@
 		</footer>
 	</div>
 
+	<script>
+	  function handler(event) {
+	    event.preventDefault();
+	  }
+	</script>
+<script src="js/cmn.js"></script>
 <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript">
 </script>
 <script src="js/map.js"></script>
