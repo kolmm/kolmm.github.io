@@ -8,6 +8,32 @@ body {
 	box-sizing: border-box;
 }
 
+.h1 {
+	text-align: center;
+	font-family: "Lato-Regular";
+	font-size: 36px;
+	color: #394346;
+}
+
+.h2 {
+	color: #394346;
+	font-size: 24px;
+	font-family: "Lato-Semibold";
+}
+
+.h3	{
+	font-family: "Lato-Regular";
+	font-size: 16px;
+	color: #394346;
+}
+
+.h4 {
+	font-family: "Lato-Regular";
+	font-size: 16px;
+	color: #8e999c;
+	text-align: center;
+}
+
 .header-wrap {
 	background: url("../img/bg.png");
 	width: 100%;
@@ -128,22 +154,6 @@ header {
  	height: 400px;
 }
 
-.block2text {
-	font-family: "Lato-Regular";
-	font-size: 36px;
-	color: #394346;
-	text-align: center;
-
-}
-
-.block2text2 {
-	font-family: "Lato-Regular";
-	font-size: 16px;
-	color: #8e999c;
-	margin-top: 0px;
-	text-align: center;
-}
-
 .kartinki {
 	display: flex;
 	flex-direction: row;
@@ -209,20 +219,64 @@ header {
 }
 
 .review-wrap .review {
-
-	height: 700px;
-    width: 1400px;
-    margin: 0 auto;
-    padding: 50px 0 50px 0;
+	display: flex;
+  width: 1400px;
+  margin: 0 auto;
+  padding: 50px 0 50px 0;
 }
 
 .review-phone {
-	position: absolute;
 	margin-left: 150px;
-	background-image: url(../img/iphone-big.png);
-	z-index: 1;
 	width: 350px;
 	height: 650px;
+}
+
+.description {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 540px;
+	margin-left: 80px;
+}
+
+.desc-firstlane {
+	display: flex;
+	justify-content: space-between;
+}
+
+.desc-btn {
+	display: flex;
+}
+
+.desc-btn-iphone-s,
+.desc-btn-iphone-l {
+	border: 2px solid #394346;
+	border-radius: 10px;
+	padding: 15px 20px;
+}
+
+.desc-btn .desc-btn-iphone-s {
+	margin-right: 15px;
+}
+
+.desc-feature,
+.desc-feature-plus {
+	margin-top: 7px;
+}
+
+.desc-feature__none {
+	display: none;
+}
+
+.desc-feature__margin {
+	margin-top: 15px;
+}
+
+.desc-btn a {
+	text-decoration: none;
+	color: #394346;
+	font-family: "Lato-Regular";
+	font-size: 18px;
 }
 
 .btno a {
@@ -250,29 +304,8 @@ header {
 	font-size: 18px;
 }
 
-.description {
-	margin-left: 570px;
-	font-family: "Lato-Regular";
-	font-size: 36px;
-	color: #394346;
-}
-
 .weight {
 	margin-top: 20px;
-	color: #394346;
-	font-size: 24px;
-	font-family: "Lato-Semibold";
-}
-
-.h2	{
-	width: 500px;
-	margin-top: 10px;
-	font-family: "Lato-Regular";
-	font-size: 16px;
-	color: #394346;
-}
-
-.h1 {
 	color: #394346;
 	font-size: 24px;
 	font-family: "Lato-Semibold";
