@@ -121,7 +121,7 @@
 
 	<div class="block4-wrap">
 		<div class="h1">Как происходит процесс покупки?</div>
-		<div class="h4">Быстро и удобно</div>
+		<div class="h4 h4__margin ">Быстро и удобно</div>
 		<div class="block4">
 			<div class="block4-1"><img src="img/pencil.png" alt="">
 				<div class="block4s">Вы оставляете заявку на нашем сайте</div>
@@ -146,9 +146,33 @@
 	<div class="appearance-wrap">
 		<div class="appearance">
 			<div class="h1">Внешний вид</div>
-			<div class="iphone-side"><img src="img/iphone-side.jpg" alt=""></div>
-			<div class="btn-app1"><a href="#">Назад</a></div>
-			<div class="btn-app2"><a href="#">Далее</a></div>
+
+			<div class="slidershow-container">
+				<div class="iphone-side mySlides fade">
+					<img src="img/iphone-side.jpg">
+
+				</div>
+				<div class="iphone-side mySlides fade">
+					<img src="img/iphone-side2.jpg">
+
+				</div>
+				<div class="iphone-side mySlides fade">
+					<img src="img/iphone-side3.jpg">
+
+				</div>
+				<a onclick="plusSlides(-1)"><div class="btn-app1">Назад</div></a>
+				<a onclick="plusSlides(1)"><div class="btn-app2">Далее</div></a>
+			</div>
+			<br>
+			<div style="text-align:center;">
+				<span class="dot" onclick="currentSlide(1)"></span>
+				<span class="dot" onclick="currentSlide(2)"></span>
+				<span class="dot" onclick="currentSlide(3)"></span>
+
+			</div>
+
+			<!-- <div class="iphone-side"><img src="img/iphone-side.jpg" alt=""></div> -->
+
 		</div>
 	</div>
 
@@ -233,6 +257,7 @@
 	  }
 	</script>
 <script src="js/cmn.js"></script>
+<script src="js/slider.js"></script>
 <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript">
 </script>
 <script src="js/map.js"></script>

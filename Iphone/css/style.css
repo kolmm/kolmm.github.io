@@ -320,13 +320,8 @@ header {
  	height: 400px;
 }
 
-.block4text2 {
-	font-family: "Lato-Regular";
-	font-size: 16px;
-	color: #8e999c;
-	margin-top: 15px;
-	text-align: center;
-	margin-bottom: 80px;
+.h4__margin {
+	margin-top: 23px;
 }
 
 .block4 {
@@ -335,6 +330,7 @@ header {
 	align-items: flex-start;
 	margin-left: 150px;
 	margin-right: 150px;
+	margin-top: 55px;
 }
 
 .block4-arrow {
@@ -364,6 +360,57 @@ header {
     padding: 50px 0 50px 0;
 }
 
+
+
+
+
+
+.slideshow-container{
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+}
+
+.mySlides{
+	text-align: center;
+	max-height: 700px;
+}
+
+.dot{
+	cursor: pointer;
+	height: 13px;
+	width: 13px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color:0.6s ease;
+
+}
+.active, .dot:hover{
+	background-color: #717171;
+
+}
+.fade{
+	-webkit-animation-name: fade;
+	-webkit-animation-duration:1s;
+	animation-name:fade;
+	animation-duration:1s;
+}
+/*@-webkit-keyframes fade{
+	0%{opacity:0.4;}
+	100%{opacity:1;}
+}*/
+@keyframes fade{
+	0%{opacity:0.4;}
+	100%{opacity:1;}
+}
+
+
+
+
+
+
 .iphone-side {
 	text-align: center;
 	margin-top: 50px;
@@ -374,7 +421,7 @@ header {
 	box-sizing: padding-box;
 }
 
-.btn-app1 a{
+.btn-app1 {
 	float: left;
 	text-decoration: none;
 	border: 2px solid #394346;
@@ -385,9 +432,10 @@ header {
 	font-size: 18px;
 	margin-top: -265px;
 	margin-left: 105px;
+	cursor: pointer
 }
 
-.btn-app2 a{
+.btn-app2 {
 	float: right;
 	text-decoration: none;
 	border: 2px solid #394346;
@@ -398,6 +446,7 @@ header {
 	font-size: 18px;
 	margin-top: -265px;
 	margin-right: 105px;
+	cursor: pointer
 }
 
 
