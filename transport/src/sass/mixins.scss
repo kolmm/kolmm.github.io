@@ -1,0 +1,53 @@
+@mixin width {
+  // max-width: 58.75%; // 940 / 1600
+  max-width: 940px;
+}
+
+@mixin h1 {
+  font-family: "Roboto-BoldItalic";
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+@mixin h3 {
+  font-family: "Roboto-Light";
+  font-size: 21px;
+  color: #fff;
+  width: 51.5%;
+}
+
+@mixin h2 {
+  font-family: "Roboto-BlackItalic";
+  font-size: 24px;
+  color: $headline-h2;
+  text-transform: uppercase;
+  transform: skew(+17deg, +180deg);
+}
+
+@mixin headline-skew {
+  display: inline-block;
+  margin-top: 35px;
+  background-color: #fff;
+  padding: 15px 61px;
+  transform: skew(-17deg, -180deg);
+  box-shadow: 0 0 4px rgba(0,0,0,0.2);
+}
+
+@mixin margin-left {
+  margin-left: 20.63%; //330 / 1600
+}
+
+@mixin margin-right {
+  margin-right: 20.63%; //330 / 1600
+}
+
+@mixin h4-bold {
+  font-family: "Roboto-Bold";
+  font-size: 16px;
+}
+
+@mixin h4-light {
+  font-family: "Roboto-Light";
+  font-size: 16px;
+}

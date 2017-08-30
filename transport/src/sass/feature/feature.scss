@@ -1,0 +1,40 @@
+.feature {
+background-color: #eaeaea;
+padding-bottom  : 45px;
+text-align: center;
+}
+
+.feature-headline {
+  padding-top: 70px;
+  font-family: "Roboto-BlackItalic";
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.feature-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  @include width;
+  text-align: left;
+}
+
+.feature-container-left,
+.feature-container-right {
+  margin-top: 40px;
+  max-width: 46.28%;
+  @include h4-light;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .feature-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .feature-container-left,
+  .feature-container-right {
+    max-width: 70%;
+    text-align: center;
+  }
+}

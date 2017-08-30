@@ -1,0 +1,147 @@
+.service {
+  background-color: #eaeaea;
+  padding-bottom  : 45px;
+  text-align: center;
+}
+
+.service-headline {
+  @include headline-skew;
+}
+
+.service-headline-line:after,
+.service-headline-line:before{
+  position: absolute;
+  content : '';
+  width   : 137%;
+}
+
+.service-headline-line::after{
+  top       : -17px;
+  left      : -35px;
+  border-top: 3px solid $headline-line;
+}
+
+.service-headline-line::before{
+  bottom    : -17px;
+  left      : -35px;
+  border-top: 3px solid $headline-line;
+}
+
+.service-container {
+  display: flex;
+  justify-content: center;
+  @include width;
+  margin: 0 auto;
+  margin-top: 74px;
+}
+
+.service-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.dot{
+	cursor: pointer;
+  text-align: left;
+  min-width: 280px;
+  margin-right: 39px;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+.active, .dot:hover{
+  position: relative;
+	background-color: #fff;
+}
+
+.dot-main {
+  padding: 19px 5px 27px 22px;
+}
+
+.dot-main a {
+  text-decoration: none;
+  color: #000;
+}
+
+.active a {
+  text-decoration: underline;
+  color: #5887c4;
+}
+
+.active:after,
+.active:before{
+  position: absolute;
+  content : '';
+  width   : 73%;
+}
+
+.active::after{
+  left: 20px;
+  border-top: 1px solid $headline-line;
+}
+
+.active::before{
+  left: 20px;
+  border-top: 1px solid $headline-line;
+}
+
+.h4-bold {
+  @include h4-bold;
+}
+
+.h4-bold-active {
+  color: #5887c4;
+}
+
+.h4-bold--uppercase {
+  text-transform: uppercase;
+}
+
+.h4-light {
+  @include h4-light;
+}
+
+.h {
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .service-container {
+    flex-wrap: wrap;
+  }
+
+  .service-main {
+    flex-direction: row;
+  }
+
+  .dot {
+    min-width: 200px;
+    margin-right: 0;
+    margin-top: 0;
+  }
+
+  .active:after,
+  .active:before {
+    display: none;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .service-container {
+    margin-left: 7%
+  }
+
+  .service-img {
+    display: none;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+  .dot {
+    max-width: 240px;
+  }
+
+  .service-img {
+    display: none;
+  }
+}
