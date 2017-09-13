@@ -1,0 +1,33 @@
+.area {
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 600px;
+  height: 300px;
+  margin-top: 15%;
+  border-radius: 4px;
+  box-shadow: 11px 14px 96px -23px rgba(0,0,0,0.5);
+}
+
+.id-image {
+  background-image: url('../img/face.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 45px;
+  margin-left: 20px;
+  width: 200px;
+  height: 200px;
+}
+
+.id-main-text {
+  font-family: "RobotoMono-Thin";
+  color: #000;
+  text-align: left;
+  margin-top: 25px;
+}
+
+.id-main-text ul {
+  list-style: none;
+}
+
+.id-main-text ul li {
+  margin-top: 20px;
+}
