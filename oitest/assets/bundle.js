@@ -71,6 +71,9 @@
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__scss_style_scss__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__scss_style_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__scss_style_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__main_vue__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__main_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__main_vue__);
+
 
 
 
@@ -79,6 +82,25 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 2 */
+/***/ (function(module, exports) {
+
+var departments = [
+  {id: 1, name: "Бухалтерия", desc: "Штатно-структурное подразделение хозяйствующего субъекта, предназначенное для аккумулирования данных о его имуществе и обязательствах. Бухгалтерия является источником документально обоснованной и структурированной экономической информации, необходимой для принятия управленческих решений в целях обеспечения эффективного хозяйствования"},
+  {id: 2, name: "Отдел технического контроля", desc: "Самостоятельное подразделение производственной организации (предприятия), которое осуществляет независимый контроль соответствия продукции установленным требованиям и гарантирует это соответствие потребителю. Отдел технического контроля подчиняется высшему руководству организации (предприятия), что обеспечивает независимость контроля."},
+  {id: 3, name: "Отдел кадров", desc: "Совокупность специализированных подразделений в структуре предприятия (с занятыми в них должностными лицами — руководителями, специалистами, техническим персоналом), призванных управлять персоналом предприятия."}
+];
+
+
+var va = new Vue({
+  el: '#depart-desc',
+  data: {
+    departments: departments
+  }
+})
+
 
 /***/ })
 /******/ ]);
