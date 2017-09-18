@@ -15,10 +15,8 @@
         <div id="emplo" class="row justify-content-center">
           <div class="col-xl-6">
             <div class="emplo-item" v-for="employee in employees">
-              <router-link v-bind:to="'/employees/' + employees.id">
-                <a href="" class="list-group-item list-group-item-action list-group-item-light">
-                  {{employee.fullname}}
-                </a>
+              <router-link class="list-group-item list-group-item-action list-group-item-light" v-bind:to="'/employers/' + employee.id">
+                {{employee.fullname}}
               </router-link>
             </div>
           </div>

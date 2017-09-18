@@ -3,7 +3,7 @@ import Router from 'vue-router'
 import About from '@/components/About'
 import Departments from '@/components/Departments'
 import Employees from '@/components/Employees'
-import Id1 from '@/components/1'
+import Employer from '@/components/Employer'
 
 Vue.use(Router)
 
@@ -27,9 +27,10 @@ export default new Router({
       component: Employees
     },
     {
-      path: '/employees/:person',
-      name: 'Id1',
-      component: Id1
+      path: '/employers/:id',
+      name: 'Employer',
+      component: Employer,
+      props: true
     }
   ]
 })

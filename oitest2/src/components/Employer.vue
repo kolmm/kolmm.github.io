@@ -13,11 +13,14 @@
         <div class="col-xl-8 area">
           <div class="id-image rounded float-left"></div>
           <div class="id-main-text float-left">
-            <ul id="v-for-object">
-              <li v-for="(value, key) in person">
-                {{ key }}: {{ value }}
-              </li>
-            </ul>
+            {{customId}}
+            {{persons | filterBy 1 in 'id'}}
+            <!-- <ul>
+              <li>Фамилия: {{ person.lname }}</li>
+              <li>Имя: {{ person.fname }}</li>
+              <li>Отчество: {{ person.otch }}</li>
+              <li>Телефон: {{ person.phone }}</li>
+            </ul> -->
           </div>
         </div>
       </div>
@@ -27,9 +30,11 @@
 
 <script>
 export default {
+  props: {id: Number},
   data () {
     return {
-      person: JSON.parse(window.localStorage.getItem('person'))
+      persons: JSON.parse(window.localStorage.getItem('person')),
+      customId: this.id
     }
   }
 }
@@ -47,7 +52,7 @@ export default {
   background-color: rgba(255, 255, 255, 0.9);
   width: 600px;
   height: 300px;
-  margin-top: 15%;
+  margin-top: 12%;
   border-radius: 4px;
   box-shadow: 11px 14px 96px -23px rgba(0, 0, 0, 0.5); }
 

@@ -14,7 +14,7 @@ var localDeportaments = JSON.stringify(departments)
 window.localStorage.setItem('departments', localDeportaments)
 
 var employees = [
-  {id: 1, fullname: 'Максим Колмогоров'},
+  {id: 1, fullname: 'Максим Колмогорв'},
   {id: 2, fullname: 'Максим asdasd'},
   {id: 3, fullname: 'asdasd Колмогоров'},
   {id: 4, fullname: 'asdasd Колмоssssров'}
@@ -22,13 +22,23 @@ var employees = [
 var localEmployees = JSON.stringify(employees)
 window.localStorage.setItem('employees', localEmployees)
 
-var person = {
-  Фамилия: 'Петров',
-  Имя: 'Иван',
-  Отчество: 'Петрович',
-  Телефон: '8 (952) 562-98-65'
-}
-var localPerson = JSON.stringify(person)
+var persons = [
+  {
+    id: 1,
+    lname: 'Петров',
+    fname: 'Иван',
+    otch: 'Петрович',
+    phone: '8 (952) 562-98-65'
+  },
+  {
+    id: 2,
+    Фамилия: 'Проп',
+    Имя: 'Андрей',
+    Отчество: 'Пеыывич',
+    Телефон: '8 (952) 522-12-64'
+  }
+]
+var localPerson = JSON.stringify(persons)
 window.localStorage.setItem('person', localPerson)
 
 </script>
