@@ -1,5 +1,10 @@
 <template lang="html">
   <div class="depart-header">
+    <nav class="nav">
+      <router-link to="/">
+      <a class="nav-link active" href="#">Главная</a>
+      </router-link>
+    </nav>
     <div id="exampleAccordion" data-children=".item">
       <div id="depart-desc">
         <div class="item" v-for="department in departments">
@@ -13,9 +18,11 @@
                   <div >
                     {{ department.desc }}
                   </div> <br><br>
-                  <a href="#">
-                  <button type="button" class="btn btn-outline-dark">Подробнее</button>
-                  </a>
+                  <router-link v-bind:to="'/departments/' + department.id + '/employees'">
+                    <button type="button" class="btn btn-outline-dark">
+                      Подробнее
+                    </button>
+                  </router-link>
                 </div>
                 <div class="account-image col-xl-6">
                 </div>
@@ -28,6 +35,13 @@
   </div>
 </template>
 <script>
+var departments = [
+  {id: 1, name: 'Бухалтерия', desc: 'Штатно-структурное подразделение хозяйствующего субъекта, предназначенное для аккумулирования данных о его имуществе и обязательствах. Бухгалтерия является источником документально обоснованной и структурированной экономической информации, необходимой для принятия управленческих решений в целях обеспечения эффективного хозяйствования'},
+  {id: 2, name: 'Отдел технического контроля', desc: 'Самостоятельное подразделение производственной организации (предприятия), которое осуществляет независимый контроль соответствия продукции установленным требованиям и гарантирует это соответствие потребителю. Отдел технического контроля подчиняется высшему руководству организации (предприятия), что обеспечивает независимость контроля.'},
+  {id: 3, name: 'Отдел кадров', desc: 'Совокупность специализированных подразделений в структуре предприятия (с занятыми в них должностными лицами — руководителями, специалистами, техническим персоналом), призванных управлять персоналом предприятия.'}
+]
+var serialObj = JSON.stringify(departments)
+window.localStorage.setItem('departments', serialObj)
 export default {
   data () {
     return {
@@ -40,7 +54,10 @@ export default {
   }
 }
 </script>
-<style scoped>
+<style>
+@font-face {
+  font-family: "RobotoMono-Thin";
+  src: url(/src/assets/fonts/RobotoMono-Thin.ttf); }
 body {
   overflow-x: hidden; }
 
@@ -108,9 +125,6 @@ header {
   font-family: "RobotoMono-Regular";
   color: #000;
   margin-left: 50px; }
-
-#exampleAccordion {
-  padding-top: 15%; }
 
 .emplo-header {
   min-height: 100vh;

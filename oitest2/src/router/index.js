@@ -1,21 +1,35 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Go from '@/components/Go'
-import Ky from '@/components/Ky'
+import About from '@/components/About'
+import Departments from '@/components/Departments'
+import Employees from '@/components/Employees'
+import Id1 from '@/components/1'
 
 Vue.use(Router)
+
+import '../fonst_config.css'
 
 export default new Router({
   routes: [
     {
       path: '/',
-      name: 'Go',
-      component: Go
+      name: 'About',
+      component: About
     },
     {
-      path: '/privet',
-      name: 'Ky',
-      component: Ky
+      path: '/departments',
+      name: 'Departments',
+      component: Departments
+    },
+    {
+      path: '/departments/:id/employees',
+      name: 'Employees',
+      component: Employees
+    },
+    {
+      path: '/employees/:person',
+      name: 'Id1',
+      component: Id1
     }
   ]
 })
