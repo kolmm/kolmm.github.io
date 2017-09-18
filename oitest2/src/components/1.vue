@@ -14,7 +14,7 @@
           <div class="id-image rounded float-left"></div>
           <div class="id-main-text float-left">
             <ul id="v-for-object">
-              <li v-for="(value, key) in object">
+              <li v-for="(value, key) in person">
                 {{ key }}: {{ value }}
               </li>
             </ul>
@@ -29,12 +29,7 @@
 export default {
   data () {
     return {
-      object: {
-        Фамилия: 'Петров',
-        Имя: 'Иван',
-        Отчество: 'Петрович',
-        Телефон: '8 (952) 562-98-65'
-      }
+      person: JSON.parse(window.localStorage.getItem('person'))
     }
   }
 }

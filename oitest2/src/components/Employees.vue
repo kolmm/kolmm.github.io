@@ -31,12 +31,7 @@
 export default {
   data () {
     return {
-      employees: [
-        {id: 1, fullname: 'Максим Колмогоров'},
-        {id: 2, fullname: 'Максим asdasd'},
-        {id: 3, fullname: 'asdasd Колмогоров'},
-        {id: 4, fullname: 'asdasd Колмоssssров'}
-      ]
+      employees: JSON.parse(window.localStorage.getItem('employees'))
     }
   }
 }
