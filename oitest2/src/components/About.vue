@@ -59,13 +59,12 @@
         </a>
         <div id="exampleAccordion4" class="collapse" role="tabpanel">
           <p class="mb-3">
-            <div class="col-xl-6">
+            <div class="col-xl-4">
               <form class="contact-form">
-                <input type="text" placeholder="Имя">
+                <input type="text" placeholder="Имя"><br>
                 <input type="text" placeholder="Email"><br>
-                <textarea placeholder="Ваше сообщение">
-
-                </textarea>
+                <textarea placeholder="Ваше сообщение"></textarea><br>
+                <button type="button" class="deport-btn btn btn-outline-dark float-right">Отправить</button>
               </form>
             </div>
             <div class="col-xl-6">
@@ -83,7 +82,7 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style>
 
 header {
   min-height: 100vh;
@@ -107,18 +106,28 @@ header {
   font-family: "RobotoMono-Light";
   padding-left: 50px; }
 
-.main-text a {
-  color: #959595;
-  text-decoration: none;
-  margin-left: 0; }
-
 .deport-btn {
   margin-top: 20px; }
 
+.contact-form {
+  padding-left: 40px;
+}
+
 .contact-form textarea,
 .contact-form input {
-  background-color: #040302;
-  color: #fff;
-  border: 1px solid #959595;
-  border-radius: 4px; }
+  margin-top: 25px;
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 4px;
+  resize: none;
+  width: 100%;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  font-family: "RobotoMono-Light";
+  font-size: 14px;
+  padding-left: 10px;
+  color: #000;
+}
 </style>

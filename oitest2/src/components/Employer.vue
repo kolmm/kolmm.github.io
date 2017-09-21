@@ -1,26 +1,26 @@
 <template lang="html">
   <div class="emplo-header">
     <nav class="nav">
-      <router-link to="/">
-        <a class="nav-link active" href="#">Главная</a>
+      <router-link class="nav-link" to="/">
+        Главная
       </router-link>
-      <router-link to="/departments">
-        <a class="nav-link" href="#">Отделы</a>
+      <router-link class="nav-link" to="/departments">
+        Отделы
       </router-link>
     </nav>
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-xl-8 area">
-          <div class="id-image rounded float-left"></div>
+          <div class="id-image float-left">
+            <img src="../assets/face.jpg" alt="">
+          </div>
           <div class="id-main-text float-left">
-            {{customId}}
-            {{persons | filterBy 1 in 'id'}}
-            <!-- <ul>
+            <ul>
               <li>Фамилия: {{ person.lname }}</li>
               <li>Имя: {{ person.fname }}</li>
               <li>Отчество: {{ person.otch }}</li>
               <li>Телефон: {{ person.phone }}</li>
-            </ul> -->
+            </ul>
           </div>
         </div>
       </div>
@@ -32,9 +32,9 @@
 export default {
   props: {id: Number},
   data () {
+    var id = this.id
     return {
-      persons: JSON.parse(window.localStorage.getItem('person')),
-      customId: this.id
+      person: JSON.parse(window.localStorage.getItem('person')).filter(function (x) { return x.id == id })[0]
     }
   }
 }
@@ -56,10 +56,7 @@ export default {
   border-radius: 4px;
   box-shadow: 11px 14px 96px -23px rgba(0, 0, 0, 0.5); }
 
-.id-image {
-  background-image: url("../assets/face.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
+.id-image img {
   margin-top: 45px;
   margin-left: 20px;
   width: 200px;
@@ -76,5 +73,4 @@ export default {
 
 .id-main-text ul li {
   margin-top: 30px; }
-
 </style>

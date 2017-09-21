@@ -24,7 +24,8 @@ export default new Router({
     {
       path: '/departments/:id/employees',
       name: 'Employees',
-      component: Employees
+      component: Employees,
+      props: true
     },
     {
       path: '/employers/:id',
