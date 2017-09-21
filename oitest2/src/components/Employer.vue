@@ -59,7 +59,7 @@ export default {
 .id-image img {
   margin-top: 45px;
   margin-left: 20px;
-  width: 200px;
+  width: 180px;
   height: 200px; }
 
 .id-main-text {
