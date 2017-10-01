@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="17px" viewBox="0 0 26 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>bag</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bag" transform="translate(1.000000, 1.000000)">
+            <path d="M12.5263158,9.93214286 L12.5263158,6.25 L12.5263158,9.93214286 Z" id="Fill-1" fill="#FFFFFF"></path>
+            <path d="M12.5263158,9.93303571 L12.5263158,6.25" id="Stroke-2" stroke="#393939" stroke-width="1.8" stroke-linecap="round"></path>
+            <path d="M16.1052632,9.93303571 L17.1494211,6.25" id="Fill-3" fill="#FFFFFF"></path>
+            <path d="M16.1052632,9.93303571 L17.1494211,6.25" id="Stroke-4" stroke="#393939" stroke-width="1.8" stroke-linecap="round"></path>
+            <path d="M8.20205263,9.93303571 L7.15789474,6.25" id="Fill-6" fill="#FFFFFF"></path>
+            <path d="M8.20205263,9.93303571 L7.15789474,6.25" id="Stroke-7" stroke="#393939" stroke-width="1.8" stroke-linecap="round"></path>
+            <path d="M14.3157895,1.78571429 L20.0465789,1.78571429" id="Stroke-9" stroke="#393939" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M22.291027,1.78571429 L23.0327639,1.78571429 C23.6411849,1.78571429 24.0724481,2.37857143 23.8827639,2.95625 L20.5686586,13.0758929 C20.3288691,13.8098214 19.6417112,14.30625 18.8677639,14.30625 L5.06018491,14.30625 C4.28623754,14.30625 3.59907965,13.8098214 3.35929017,13.0758929 L0.0451849098,2.95625 C-0.144499301,2.37857143 0.286763857,1.78571429 0.89518491,1.78571429 L7.71397438,1.78571429" id="Stroke-11" stroke="#393939" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M10.7368421,1.60803571 C10.7368421,0.719642857 11.4588947,0 12.3482632,0 C13.2376316,0 13.9596842,0.719642857 13.9596842,1.60803571 C13.9596842,2.49642857 13.2376316,3.21607143 12.3482632,3.21607143 C11.4588947,3.21607143 10.7368421,2.49642857 10.7368421,1.60803571 Z" id="Stroke-13" stroke="#393939" stroke-width="1.8" stroke-linecap="round"></path>
+        </g>
+    </g>
+</svg>

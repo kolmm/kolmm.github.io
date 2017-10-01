@@ -1,9 +1,0 @@
-header {
-  background-color: #000;
-  min-height: 100vh; }
-
-.header-img {
-  min-height: 600px;
-  background-image: url(img/112.jpg);
-  background-repeat: no-repeat;
-  background-size: cover; }
